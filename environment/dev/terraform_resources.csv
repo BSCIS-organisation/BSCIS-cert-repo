@@ -1,0 +1,13 @@
+resource_type,key,name,location,resource_group_name,account_tier,account_replication_type,address_space,virtual_network_name,address_prefixes
+resource_group,rg1,rg100,westus,,,,,,
+resource_group,rg2,rg200,eastus,,,,,,
+storage_account,stg1,stg500,westus,rg100,Standard,LRS,,,
+storage_account,stg2,stg200,eastus,rg200,Standard,LRS,,,
+vnet,vnet1,vnet100,westus,rg100,,,10.1.0.0/16,,
+vnet,vnet2,vnet200,eastus,rg200,,,10.2.0.0/16,,
+vnet,vnet3,vnet300,eastus,rg200,,,10.3.0.0/16,,
+subnet,subnet1,subnet100,,rg100,,,,vnet100,10.1.1.0/25
+subnet,subnet2,subnet300,,rg100,,,,vnet100,10.1.2.0/25
+subnet,subnet3,subnet200,,rg200,,,,vnet200,10.2.1.0/25
+subnet,subnet4,subnet400,,rg200,,,,vnet200,10.2.2.0/25
+subnet,subnet5,subnet500,,rg200,,,,vnet300,10.3.2.0/25
