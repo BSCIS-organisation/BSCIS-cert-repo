@@ -10,4 +10,3 @@ subnet,subnet1,subnet100,,rg100,,,,vnet100,10.1.1.0/25
 subnet,subnet2,subnet300,,rg100,,,,vnet100,10.1.2.0/25
 subnet,subnet3,subnet200,,rg200,,,,vnet200,10.2.1.0/25
 subnet,subnet4,subnet400,,rg200,,,,vnet200,10.2.2.0/25
-subnet,subnet5,subnet500,,rg200,,,,vnet300,10.3.2.0/25
